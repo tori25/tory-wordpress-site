@@ -17,6 +17,7 @@ INSERT INTO `wp_usermeta` VALUES
 (13,1,"wp_user_level","10"),
 (14,1,"dismissed_wp_pointers","wp496_privacy"),
 (15,1,"show_welcome_panel","1"),
-(16,1,"session_tokens","a:1:{s:64:\"1f5428480eacc782e6dc4b9d7bc294578c2c897e42f708ba3789d321a387fbc6\";a:4:{s:10:\"expiration\";i:1544615566;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:115:\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36\";s:5:\"login\";i:1544442766;}}"),
+(16,1,"session_tokens","a:1:{s:64:\"7e6aa7ce8c944e27a0129b7dc52efe20bb6a011c1f7b6f3ca7407b7d09106720\";a:4:{s:10:\"expiration\";i:1544788443;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:115:\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36\";s:5:\"login\";i:1544615643;}}"),
 (17,1,"wp_dashboard_quick_press_last_post_id","4"),
-(18,1,"community-events-location","a:1:{s:2:\"ip\";s:12:\"192.168.95.0\";}");
+(18,1,"community-events-location","a:1:{s:2:\"ip\";s:12:\"192.168.95.0\";}"),
+(19,1,"_new_email","a:2:{s:4:\"hash\";s:32:\"8b064a55a235ea9068881f03d959d971\";s:8:\"newemail\";s:26:\"vera.mezhvynskiy@gmail.com\";}");
