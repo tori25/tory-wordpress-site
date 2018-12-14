@@ -1,20 +1,8 @@
 <?php get_header(); ?>
 
-<?php
-
-  function  doubleMe($x){
-    return $x * 2;
-  }
-
-  function  tripleMe($x){
-    return $x * 3;
-  }
-
-?>
-
   <div class="page-banner">
     <div class="page-banner__bg-image"
-    style="background-image: url(<?php echo get_theme_file_uri('/images/library-hero.jpg') ?>);"></div>
+    style="background-image: url(<?php echo get_theme_file_uri('/images/music-prin.jpg') ?>);"></div>
 
     <div class="page-banner__content container t-center c-white">
       <h1 class="headline headline--large">Welcome!</h1>
@@ -88,27 +76,27 @@
   <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('images/bus.jpg') ?>);">
     <div class="hero-slider__interior container">
       <div class="hero-slider__overlay">
-        <h2 class="headline headline--medium t-center">Free Transportation</h2>
-        <p class="t-center">All students have free unlimited bus fare.</p>
+        <h2 class="headline headline--medium t-center">Free Music in transport</h2>
+        <p class="t-center">All students have free unlimited music access on Sound Cloud.</p>
         <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
       </div>
     </div>
   </div>
-  <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('images/apples.jpg') ?>);">
+  <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('images/music1.jpg') ?>);">
     <div class="hero-slider__interior container">
       <div class="hero-slider__overlay">
-        <h2 class="headline headline--medium t-center">An Apple a Day</h2>
-        <p class="t-center">Our dentistry program recommends eating apples.</p>
+        <h2 class="headline headline--medium t-center">An Song a Day</h2>
+        <p class="t-center">Our program recommend a song a day.</p>
         <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
       </div>
     </div>
   </div>
   <div class="hero-slider__slide"
-  style="background-image: url(<?php echo get_theme_file_uri('/images/bread.jpg') ?>);">
+  style="background-image: url(<?php echo get_theme_file_uri('/images/music2.jpg') ?>);">
     <div class="hero-slider__interior container">
       <div class="hero-slider__overlay">
-        <h2 class="headline headline--medium t-center">Free Food</h2>
-        <p class="t-center">Fictional University offers lunch plans for those in need.</p>
+        <h2 class="headline headline--medium t-center">Free Music</h2>
+        <p class="t-center">Youtube offers music plans for those in need.</p>
         <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
       </div>
     </div>
