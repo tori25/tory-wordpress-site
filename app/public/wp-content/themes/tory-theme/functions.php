@@ -14,4 +14,3 @@ function tory_features() {
 }
 
   add_action('after_setup_theme', 'tory_features');
-?>
