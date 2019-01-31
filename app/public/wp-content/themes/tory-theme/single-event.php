@@ -25,12 +25,22 @@
           <i class="fa fa-home" aria-hidden="true"></i> Events home</a>
           <span class="metabox__main"><?php the_title(); ?></span></p>
       </div>
-      <div class="generic-content">
-        <?php the_content(); ?>
-      </div>
-    </div>
-  </div>
+      <div class="generic-content"> <?php the_content(); ?> </div>
 
-  <?php }
-      get_footer();
-  ?>
+      <?php
+        $relatedGenres = get_field('related_genres');
+
+        if($relatedGenres) {
+        echo '<hr class="section-break">';
+        echo '<h2 class="headline headline--medium">Related Genre(s)<h2>';
+        echo '<ul class="link-list min-list">';
+       foreach($relatedGenres as $genre) { ?>
+         <li><a href="<?php echo get_the_permalink($genre); ?>"><?php echo
+         get_the_title($genre); ?></a></li>
+      <?php }
+      echo '</ul>';
+        } ?>
+    </div>
+    </div>
+
+  <?php } get_footer(); ?>
