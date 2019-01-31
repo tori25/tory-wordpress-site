@@ -17,7 +17,7 @@ function tory_post_types() {
     'menu_icon' => 'dashicons-calendar-alt'
   ));
 
-  // Program Post Type
+  // Genre Post Type
   register_post_type('genres', array(
       'supports' => array('title', 'editor'),
       'rewrite' => array('slug' => 'genres'),
@@ -32,6 +32,20 @@ function tory_post_types() {
       ),
       'menu_icon' => 'dashicons-awards'
     ));
+
+    // Singer Post Type
+      register_post_type('singers', array(
+          'supports' => array('title', 'editor'),
+          'public' => true,
+          'labels' => array (
+            'name' => 'Singers',
+            'add_new_item' => 'Add New Singers',
+            'edit_item' => 'Edit Singer',
+            'all_items' => 'All Singers',
+            'singular_name' => 'Singer'
+          ),
+          'menu_icon' => 'dashicons-universal-access'
+        ));
 }
 
 add_action('init', 'tory_post_types');
