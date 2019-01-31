@@ -17,8 +17,7 @@
     <div class="container container--narrow page-section">
       <div class="generic-content"> <?php the_content(); ?> </div>
 
-      <?php
-        $relatedGenres = get_field('related_genres');
+      <?php $relatedGenres = get_field('related_genres');
 
         if($relatedGenres) {
         echo '<hr class="section-break">';
