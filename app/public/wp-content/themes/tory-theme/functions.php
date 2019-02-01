@@ -11,6 +11,10 @@ function tory_files() {
 
 function tory_features() {
   add_theme_support('title-tag');
+  add_theme_support('post-thumbnails');
+  add_image_size('singerLandscape', 400, 260, true);
+  add_image_size('singerPortrait', 480, 650, true);
+  add_image_size('pageBanner', 1500, 350, true);
 }
 
   add_action('after_setup_theme', 'tory_features');
