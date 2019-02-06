@@ -1,6 +1,21 @@
 <?php
 
 function tory_post_types() {
+  register_post_type('festival', array(
+      'supports' => array('title', 'editor', 'content', 'excerpt'),
+      'rewrite' => array('slug' => 'festivals'),
+      'has_archive' => true,
+      'public' => true,
+      'labels' => array (
+      'name' => 'Festivals',
+      'add_new_item' => 'Add New Festival',
+      'edit_item' => 'Edit Festival',
+      'all_items' => 'All Festivals',
+      'singular_name' => 'Festival'
+      ),
+      'menu_icon' => 'dashicons-location-alt'
+    ));
+
   //Event Post Type
   register_post_type('event', array(
     'supports' => array('title', 'editor', 'content', 'excerpt'),
