@@ -1,11 +1,5 @@
-exports.themeLocation = './app/wp-content/themes/tory-theme/';
-exports.urlToPreview = 'http://tory-wordpress-site.local';
-
-// If you're using Local by Flywheel you will
-// want your settings to be similar to the examples below:
-
-// exports.themeLocation = './public/wp-content/themes/fictional-university-theme/';
-// exports.urlToPreview = 'http://fictional-university.local/';
+exports.themeLocation = './public/wp-content/themes/tory-theme/';
+exports.urlToPreview = 'http://tory-wordpress-site.local/';
 
 // Simply remove the two slashes at the front of those lines
 // to uncomment them and then delete lines #1 and #2.

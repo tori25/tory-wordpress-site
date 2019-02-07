@@ -22,8 +22,8 @@
               <a href="<?php echo get_post_type_archive_link('genres'); ?>">Genres</a></li>
             <li <?php if(get_post_type() == 'event' OR is_page('past-events')) echo 'class="current-menu-item"' ?>>
               <a href="<?php echo get_post_type_archive_link('event'); ?>">Events</a></li>
-            <li <?php if (get_post_type() == 'festival') echo 'class="current-menu-item"' ?>>
-              <a href="<?php echo get_post_type_archive_link('festivals'); ?>">Festivals</a></li>
+            <li <?php if (get_post_type() == 'festivals') echo 'class="current-menu-item"' ?>>
+              <a href="<?php echo get_post_type_archive_link('festival'); ?>">Festivals</a></li>
             <li <?php if (get_post_type() == 'post') echo 'class ="current-menu-item"' ?>>
               <a href="<?php echo site_url('/blog') ?>">Blog</a></li>
           </ul>
