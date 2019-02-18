@@ -1,4 +1,4 @@
-exports.themeLocation = './public/wp-content/themes/tory-theme/';
+exports.themeLocation = './wp-content/themes/tory-theme/';
 exports.urlToPreview = 'http://tory-wordpress-site.local/';
 
 // Simply remove the two slashes at the front of those lines

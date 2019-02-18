@@ -1,6 +1,7 @@
 import $ from 'jquery';
 
 class GMap {
+
   constructor() {
     var self = this;
     $('.acf-map').each(function(){

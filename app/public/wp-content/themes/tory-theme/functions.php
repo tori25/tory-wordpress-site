@@ -35,8 +35,8 @@ function pageBanner($args = NULL) {
 
 
 function tory_files() {
-  wp_enqueue_script('googleMap','//maps.googleapis.com/maps/api/js?key=AIzaSyBBgy0_sGmK_XhIG3gWLBziGrKHwDifw1A', NULL, 1.0, true);
-  wp_enqueue_script('tory_main_js', get_theme_file_uri('/js/scripts-bundled.js'),  NULL, 1.0, true);
+  wp_enqueue_script('googleMap', '//maps.googleapis.com/maps/api/js?key=AIzaSyDTEwf_q_Rxw0adHoZYmic9eLRfknHif1E', NULL, 1.0, true);
+  wp_enqueue_script('tory_main_js', get_theme_file_uri('/js/scripts-bundled.js'), NULL, 1.0, true);
   wp_enqueue_style('tory_custom_google_fonts', '//fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,300,400,400i,700,700i');
   wp_enqueue_style('tory_font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
   wp_enqueue_style('tory_main_styles', get_stylesheet_uri(), NULL, microtime());
@@ -55,6 +55,10 @@ function tory_features() {
   add_action('after_setup_theme', 'tory_features');
 
   function tory_adjust_queries ($query) {
+  if(!is_admin() AND is_post_type_archive('festival') AND $query->is_main_query()){
+        $query->set('posts_per_page', -1);
+      }
+
     if(!is_admin() AND is_post_type_archive('genre') AND $query->is_main_query()){
       $query->set('ordeby', 'title');
       $query->set('order', 'ASC');
@@ -79,7 +83,7 @@ function tory_features() {
   add_action('pre_get_posts', 'tory_adjust_queries');
 
   function toryMapKey ($api) {
-    $api['key'] = 'AIzaSyBBgy0_sGmK_XhIG3gWLBziGrKHwDifw1A';
+    $api['key'] = 'AIzaSyDTEwf_q_Rxw0adHoZYmic9eLRfknHif1E';
     return $api;
   }
 

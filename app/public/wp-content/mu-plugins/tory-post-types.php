@@ -1,7 +1,8 @@
 <?php
 
 function tory_post_types() {
-  register_post_type('festival', array(
+  //Festival Post Type
+    register_post_type('festival', array(
       'supports' => array('title', 'editor', 'content', 'excerpt'),
       'rewrite' => array('slug' => 'festivals'),
       'has_archive' => true,
