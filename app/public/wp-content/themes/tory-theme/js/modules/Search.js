@@ -33,7 +33,7 @@ class Search {
 					this.isSpinnerVisible = true;
 				}
 
-				this.typingTimer = setTimeout(this.getResults.bind(this), 1000);
+				this.typingTimer = setTimeout(this.getResults.bind(this), 500);
 			} else {
 				this.resultsDiv.html('');
 				this.isSpinnerVisible = false;
@@ -44,8 +44,15 @@ class Search {
 	}
 
 	getResults() {
-		this.resultsDiv.html("the results are going here!");
-		this.isSpinnerVisible = false;
+		$.getJSON(
+			'http://localhost:3000/wp-json/wp/v2/posts?search=' + this.searchField.val(),
+			results => {
+				this.resultsDiv.html(`
+				<h2 class="search-overlay__section-title">General information</h2>
+				<ul class="link-list min-list">
+					${results.map(item =>`<li><a href="${item.link}">${item.title.rendered}</a></li>`).join('')}
+				</ul>
+			`); });
 	}
 
 	openOverlay() {
