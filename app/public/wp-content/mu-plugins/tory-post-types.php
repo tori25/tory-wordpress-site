@@ -51,6 +51,7 @@ function tory_post_types() {
 
     // Singer Post Type
       register_post_type('singers', array(
+          'show_in_rest' => true,
           'supports' => array('title', 'editor', 'thumbnail'),
           'public' => true,
           'labels' => array (
