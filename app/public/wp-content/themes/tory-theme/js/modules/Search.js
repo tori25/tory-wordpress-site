@@ -3,7 +3,7 @@ import $ from 'jquery';
 class Search {
 	// 1. describe and create/initiate our object
 	constructor() {
-		this.addSearchHtml();
+		Search.addSearchHtml();
 		this.resultsDiv = $("#search-overlay__results");
 		this.openButton = $(".js-search-trigger");
 		this.closeButton = $(".search-overlay__close");
@@ -14,9 +14,9 @@ class Search {
 		this.previousValue;
 		this.typingTimer;
 		this.events();
-  }
+	}
 
-  // 2. Events
+	// 2. Events
 	events() {
 		this.openButton.on("click", this.openOverlay.bind(this));
 		this.closeButton.on("click", this.closeOverlay.bind(this));
@@ -33,14 +33,12 @@ class Search {
 					this.resultsDiv.html('<div class="spinner-loader"></div>');
 					this.isSpinnerVisible = true;
 				}
-
 				this.typingTimer = setTimeout(this.getResults.bind(this), 500);
 			} else {
 				this.resultsDiv.html('');
 				this.isSpinnerVisible = false;
 			}
 		}
-
 		this.previousValue = this.searchField.val();
 	}
 
@@ -54,7 +52,7 @@ class Search {
 				`<h2 class="search-overlay__section-title">General information</h2>
 					${combinedResults.length ? '<ul class="link-list min-list">' : '<p>No general information matches this search.</p>'}
 					${combinedResults.map(item =>`<li><a href="${item.link}">
-						${item.title.rendered}</a>${item.type = 'post' ? `by ${item.authorName}` : ''}</li>`).join('')}
+						${item.title.rendered}</a>${item.type = 'post' ? ` by ${item.authorName}` : ''}</li>`).join('')}
 					${combinedResults.length ? '</ul>' : ''}`);
 			this.isSpinnerVisible = false;
 		},
@@ -87,7 +85,7 @@ class Search {
 		}
 	}
 
-	addSearchHtml() {
+	static addSearchHtml() {
 		$("body").append(`
 		<div class="search-overlay">
 		  <div class="search-overlay__top">
