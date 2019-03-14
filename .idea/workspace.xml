@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="333d9244-9ced-4b0a-bf62-9a2060ebfe4d" name="Default Changelist" comment="Post types">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/themes/tory-theme/js/modules/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/themes/tory-theme/js/modules/Search.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/app/public/node_modules/" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="tory-wordpress-site" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/public/wp-content/themes/tory-theme/js/modules/Search.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1056">
+              <caret line="65" column="3" lean-forward="true" selection-start-line="65" selection-start-column="3" selection-end-line="65" selection-end-column="3" />
+              <folding>
+                <element signature="n#!!block;n#constructor#0;n#Search#0" />
+                <element signature="n#!!block;n#events#0;n#Search#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/public/wp-content/themes/tory-theme/single-singer.php" />
+        <option value="$PROJECT_DIR$/app/public/wp-content/themes/tory-theme/single-singers.php" />
+        <option value="$PROJECT_DIR$/app/public/wp-content/themes/tory-theme/page.php" />
+        <option value="$PROJECT_DIR$/app/public/wp-content/themes/tory-theme/archive-genres.php" />
+        <option value="$PROJECT_DIR$/app/public/wp-content/themes/tory-theme/archive.php" />
+        <option value="$PROJECT_DIR$/app/public/wp-content/themes/tory-theme/index.php" />
+        <option value="$PROJECT_DIR$/app/public/wp-content/themes/tory-theme/single.php" />
+        <option value="$PROJECT_DIR$/app/public/wp-content/themes/tory-theme/template-parts/event.php" />
+        <option value="$PROJECT_DIR$/app/public/wp-content/themes/tory-theme/front-page.php" />
+        <option value="$PROJECT_DIR$/app/public/wp-content/themes/tory-theme/archive-event.php" />
+        <option value="$PROJECT_DIR$/app/public/wp-content/themes/tory-theme/page-past-events.php" />
+        <option value="$PROJECT_DIR$/app/public/wp-content/themes/tory-theme/single-event.php" />
+        <option value="$PROJECT_DIR$/app/public/wp-content/themes/archive-festivals.php" />
+        <option value="$PROJECT_DIR$/app/public/wp-content/themes/tory-theme/js/modules/GoogleMap.js" />
+        <option value="$PROJECT_DIR$/app/public/wp-content/themes/tory-theme/archive-campus.php" />
+        <option value="$PROJECT_DIR$/app/public/settings.js" />
+        <option value="$PROJECT_DIR$/app/public/wp-content/themes/tory-theme/header.php" />
+        <option value="$PROJECT_DIR$/app/public/wp-content/themes/tory-theme/archive-festival.php" />
+        <option value="$PROJECT_DIR$/app/public/wp-content/themes/tory-theme/single-genres.php" />
+        <option value="$PROJECT_DIR$/app/public/wp-content/themes/tory-theme/single-festival.php" />
+        <option value="$PROJECT_DIR$/app/public/wp-content/themes/tory-theme/js/scripts.js" />
+        <option value="$PROJECT_DIR$/app/public/wp-content/themes/tory-theme/footer.php" />
+        <option value="$PROJECT_DIR$/app/public/wp-content/themes/tory-theme/functions.php" />
+        <option value="$PROJECT_DIR$/app/public/wp-config.php" />
+        <option value="$PROJECT_DIR$/app/public/wp-content/mu-plugins/tory-post-types.php" />
+        <option value="$PROJECT_DIR$/app/public/wp-content/themes/tory-theme/includes/search-route.php" />
+        <option value="$PROJECT_DIR$/app/public/wp-content/themes/tory-theme/js/modules/Search.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="tory-wordpress-site" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="tory-wordpress-site" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="tory-wordpress-site" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="public" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="333d9244-9ced-4b0a-bf62-9a2060ebfe4d" name="Default Changelist" comment="" />
+      <created>1544443354622</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544443354622</updated>
+      <workItem from="1544443355942" duration="161000" />
+      <workItem from="1544443573996" duration="135000" />
+      <workItem from="1544444025467" duration="10838000" />
+      <workItem from="1544690926424" duration="12857000" />
+      <workItem from="1544774875373" duration="4949000" />
+      <workItem from="1544792761209" duration="2818000" />
+      <workItem from="1545033836051" duration="8266000" />
+      <workItem from="1545136969764" duration="10917000" />
+      <workItem from="1545300788201" duration="7748000" />
+      <workItem from="1545650354811" duration="40000" />
+      <workItem from="1545650453177" duration="2809000" />
+      <workItem from="1548060139533" duration="608000" />
+      <workItem from="1548066700366" duration="1881000" />
+      <workItem from="1548838492167" duration="438000" />
+      <workItem from="1548840824810" duration="1789000" />
+      <workItem from="1548843050953" duration="23291000" />
+      <workItem from="1549006338687" duration="26878000" />
+      <workItem from="1549533663356" duration="6895000" />
+      <workItem from="1549542150316" duration="101000" />
+      <workItem from="1549542307216" duration="1251000" />
+      <workItem from="1549890074621" duration="598000" />
+      <workItem from="1550129849828" duration="20553000" />
+      <workItem from="1550518269142" duration="668000" />
+      <workItem from="1550650806380" duration="11230000" />
+      <workItem from="1550737880915" duration="6051000" />
+      <workItem from="1550824985145" duration="2899000" />
+      <workItem from="1550920990747" duration="2728000" />
+      <workItem from="1551171401937" duration="1171000" />
+      <workItem from="1551281848565" duration="97000" />
+      <workItem from="1551281990761" duration="2011000" />
+      <workItem from="1551294593927" duration="36000" />
+      <workItem from="1551297405678" duration="2180000" />
+      <workItem from="1551341613574" duration="5023000" />
+      <workItem from="1551434694584" duration="3652000" />
+      <workItem from="1552296068741" duration="13747000" />
+      <workItem from="1552565786934" duration="490000" />
+    </task>
+    <task id="LOCAL-00001" summary="REMOVED UNNECESARY FILES">
+      <created>1548929627427</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548929627427</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Displaying relationships between content&#10;Singers post type">
+      <created>1548936957068</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1548936957069</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Post types">
+      <created>1548941708354</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1548941708354</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Featured images sizes and cropping, dynamic background">
+      <created>1549013923630</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1549013923630</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Refactoring, used template part, festival post type, google map api">
+      <created>1549460280839</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1549460280839</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Trying to sett map API">
+      <created>1549533404649</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1549533404649</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Live search UI">
+      <created>1550495552786</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1550495552786</updated>
+    </task>
+    <task id="LOCAL-00008" summary="keyboard events in js&#10;managing time in js&#10;waiting/loader spiner">
+      <created>1550654982347</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1550654982347</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Wordpress rest api - load wp content with js, generate html based on json">
+      <created>1550663406961</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1550663406961</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Rest Api:Add new custom field.">
+      <created>1550831807164</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1550831807164</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Post types">
+      <created>1550923707356</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1550923707356</updated>
+    </task>
+    <task id="LOCAL-00012" summary="working stady">
+      <created>1552561793093</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1552561793093</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="270000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info auto_hide="true" content_ui="combo" id="Project" order="0" sideWeight="0.4972875" weight="0.27662957" />
+      <window_info id="Structure" order="1" sideWeight="0.5027125" side_tool="true" weight="0.2445194" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.3296796" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32911393" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32911393" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32911393" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.92539966" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32911393" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info auto_hide="true" content_ui="combo" id="Project" order="0" sideWeight="0.4972875" weight="0.23102866" />
+      <window_info id="Structure" order="1" sideWeight="0.5027125" side_tool="true" weight="0.2445194" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.3296796" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32911393" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32911393" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32911393" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.11030742" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32911393" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
+    <MESSAGE value="Converted static html template into dynamic Wordpress,&#10;Interior page template, &#10;Parent and children pages,&#10;Echo or not echo" />
+    <MESSAGE value="web site responsive, lang, navigation menu" />
+    <MESSAGE value="removed sql from git" />
+    <MESSAGE value="blog" />
+    <MESSAGE value="Custom post type,&#10;Displaying custom post types" />
+    <MESSAGE value="Custom fields&#10;Ordering , custom queries&#10;Manipulating default URL based queries &#10;Custom queries pagination&#10;Creating relationships between content" />
+    <MESSAGE value="Creating relationship between content" />
+    <MESSAGE value="REMOVED UNNECESARY FILES" />
+    <MESSAGE value="Displaying relationships between content&#10;Singers post type" />
+    <MESSAGE value="Featured images sizes and cropping, dynamic background" />
+    <MESSAGE value="Refactoring, used template part, festival post type, google map api" />
+    <MESSAGE value="Trying to sett map API" />
+    <MESSAGE value="Live search UI" />
+    <MESSAGE value="keyboard events in js&#10;managing time in js&#10;waiting/loader spiner" />
+    <MESSAGE value="Wordpress rest api - load wp content with js, generate html based on json" />
+    <MESSAGE value="Rest Api:Add new custom field." />
+    <MESSAGE value="Post types" />
+    <MESSAGE value="working stady" />
+    <option name="LAST_COMMIT_MESSAGE" value="working stady" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/public/wp-content/themes/tory-theme/js/modules/GoogleMap.js</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
