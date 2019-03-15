@@ -1,0 +1,273 @@
+[15-Mar-2019 09:22:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function acf_is_field_key() in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php:171
+Stack trace:
+#0 /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php(27): acf_maybe_get_field('event_date', 89)
+#1 /app/public/wp-content/themes/tory-theme/template-parts/content-event.php(4): get_field('event_date')
+#2 /app/public/wp-includes/template.php(690): require('/app/public/wp-...')
+#3 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', false)
+#4 /app/public/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#5 /app/public/wp-content/themes/tory-theme/front-page.php(39): get_template_part('template-parts/...', 'event')
+#6 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#7 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#8 /app/public/index.php(17): require('/app/public/wp-...')
+#9 {main}
+  thrown in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php on line 171
+[15-Mar-2019 09:22:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function acf_is_field_key() in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php:171
+Stack trace:
+#0 /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php(27): acf_maybe_get_field('event_date', 89)
+#1 /app/public/wp-content/themes/tory-theme/template-parts/content-event.php(4): get_field('event_date')
+#2 /app/public/wp-includes/template.php(690): require('/app/public/wp-...')
+#3 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', false)
+#4 /app/public/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#5 /app/public/wp-content/themes/tory-theme/front-page.php(39): get_template_part('template-parts/...', 'event')
+#6 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#7 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#8 /app/public/index.php(17): require('/app/public/wp-...')
+#9 {main}
+  thrown in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php on line 171
+[15-Mar-2019 09:22:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function acf_is_field_key() in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php:171
+Stack trace:
+#0 /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php(27): acf_maybe_get_field('event_date', 89)
+#1 /app/public/wp-content/themes/tory-theme/template-parts/content-event.php(4): get_field('event_date')
+#2 /app/public/wp-includes/template.php(690): require('/app/public/wp-...')
+#3 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', false)
+#4 /app/public/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#5 /app/public/wp-content/themes/tory-theme/front-page.php(39): get_template_part('template-parts/...', 'event')
+#6 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#7 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#8 /app/public/index.php(17): require('/app/public/wp-...')
+#9 {main}
+  thrown in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php on line 171
+[15-Mar-2019 09:22:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function acf_is_field_key() in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php:171
+Stack trace:
+#0 /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php(27): acf_maybe_get_field('event_date', 89)
+#1 /app/public/wp-content/themes/tory-theme/template-parts/content-event.php(4): get_field('event_date')
+#2 /app/public/wp-includes/template.php(690): require('/app/public/wp-...')
+#3 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', false)
+#4 /app/public/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#5 /app/public/wp-content/themes/tory-theme/front-page.php(39): get_template_part('template-parts/...', 'event')
+#6 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#7 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#8 /app/public/index.php(17): require('/app/public/wp-...')
+#9 {main}
+  thrown in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php on line 171
+[15-Mar-2019 09:22:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function acf_is_field_key() in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php:171
+Stack trace:
+#0 /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php(27): acf_maybe_get_field('event_date', 89)
+#1 /app/public/wp-content/themes/tory-theme/template-parts/content-event.php(4): get_field('event_date')
+#2 /app/public/wp-includes/template.php(690): require('/app/public/wp-...')
+#3 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', false)
+#4 /app/public/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#5 /app/public/wp-content/themes/tory-theme/front-page.php(39): get_template_part('template-parts/...', 'event')
+#6 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#7 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#8 /app/public/index.php(17): require('/app/public/wp-...')
+#9 {main}
+  thrown in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php on line 171
+[15-Mar-2019 09:22:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function acf_is_field_key() in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php:171
+Stack trace:
+#0 /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php(27): acf_maybe_get_field('event_date', 89)
+#1 /app/public/wp-content/themes/tory-theme/template-parts/content-event.php(4): get_field('event_date')
+#2 /app/public/wp-includes/template.php(690): require('/app/public/wp-...')
+#3 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', false)
+#4 /app/public/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#5 /app/public/wp-content/themes/tory-theme/front-page.php(39): get_template_part('template-parts/...', 'event')
+#6 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#7 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#8 /app/public/index.php(17): require('/app/public/wp-...')
+#9 {main}
+  thrown in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php on line 171
+[15-Mar-2019 09:23:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function acf_is_field_key() in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php:171
+Stack trace:
+#0 /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php(27): acf_maybe_get_field('event_date', 89)
+#1 /app/public/wp-content/themes/tory-theme/template-parts/content-event.php(4): get_field('event_date')
+#2 /app/public/wp-includes/template.php(690): require('/app/public/wp-...')
+#3 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', false)
+#4 /app/public/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#5 /app/public/wp-content/themes/tory-theme/front-page.php(39): get_template_part('template-parts/...', 'event')
+#6 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#7 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#8 /app/public/index.php(17): require('/app/public/wp-...')
+#9 {main}
+  thrown in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php on line 171
+[15-Mar-2019 09:23:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function acf_is_field_key() in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php:171
+Stack trace:
+#0 /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php(27): acf_maybe_get_field('event_date', 89)
+#1 /app/public/wp-content/themes/tory-theme/template-parts/content-event.php(4): get_field('event_date')
+#2 /app/public/wp-includes/template.php(690): require('/app/public/wp-...')
+#3 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', false)
+#4 /app/public/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#5 /app/public/wp-content/themes/tory-theme/front-page.php(39): get_template_part('template-parts/...', 'event')
+#6 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#7 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#8 /app/public/index.php(17): require('/app/public/wp-...')
+#9 {main}
+  thrown in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php on line 171
+[15-Mar-2019 09:23:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function acf_is_field_key() in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php:171
+Stack trace:
+#0 /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php(27): acf_maybe_get_field('event_date', 89)
+#1 /app/public/wp-content/themes/tory-theme/template-parts/content-event.php(4): get_field('event_date')
+#2 /app/public/wp-includes/template.php(690): require('/app/public/wp-...')
+#3 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', false)
+#4 /app/public/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#5 /app/public/wp-content/themes/tory-theme/front-page.php(39): get_template_part('template-parts/...', 'event')
+#6 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#7 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#8 /app/public/index.php(17): require('/app/public/wp-...')
+#9 {main}
+  thrown in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php on line 171
+[15-Mar-2019 09:24:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function acf_is_field_key() in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php:171
+Stack trace:
+#0 /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php(27): acf_maybe_get_field('event_date', 89)
+#1 /app/public/wp-content/themes/tory-theme/template-parts/content-event.php(4): get_field('event_date')
+#2 /app/public/wp-includes/template.php(690): require('/app/public/wp-...')
+#3 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', false)
+#4 /app/public/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#5 /app/public/wp-content/themes/tory-theme/front-page.php(39): get_template_part('template-parts/...', 'event')
+#6 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#7 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#8 /app/public/index.php(17): require('/app/public/wp-...')
+#9 {main}
+  thrown in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php on line 171
+[15-Mar-2019 09:24:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function acf_is_field_key() in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php:171
+Stack trace:
+#0 /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php(27): acf_maybe_get_field('event_date', 89)
+#1 /app/public/wp-content/themes/tory-theme/template-parts/content-event.php(4): get_field('event_date')
+#2 /app/public/wp-includes/template.php(690): require('/app/public/wp-...')
+#3 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', false)
+#4 /app/public/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#5 /app/public/wp-content/themes/tory-theme/front-page.php(39): get_template_part('template-parts/...', 'event')
+#6 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#7 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#8 /app/public/index.php(17): require('/app/public/wp-...')
+#9 {main}
+  thrown in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php on line 171
+[15-Mar-2019 09:24:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function acf_is_field_key() in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php:171
+Stack trace:
+#0 /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php(27): acf_maybe_get_field('event_date', 89)
+#1 /app/public/wp-content/themes/tory-theme/template-parts/content-event.php(4): get_field('event_date')
+#2 /app/public/wp-includes/template.php(690): require('/app/public/wp-...')
+#3 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', false)
+#4 /app/public/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#5 /app/public/wp-content/themes/tory-theme/front-page.php(39): get_template_part('template-parts/...', 'event')
+#6 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#7 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#8 /app/public/index.php(17): require('/app/public/wp-...')
+#9 {main}
+  thrown in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php on line 171
+[15-Mar-2019 09:24:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function acf_is_field_key() in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php:171
+Stack trace:
+#0 /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php(27): acf_maybe_get_field('event_date', 89)
+#1 /app/public/wp-content/themes/tory-theme/template-parts/content-event.php(4): get_field('event_date')
+#2 /app/public/wp-includes/template.php(690): require('/app/public/wp-...')
+#3 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', false)
+#4 /app/public/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#5 /app/public/wp-content/themes/tory-theme/front-page.php(39): get_template_part('template-parts/...', 'event')
+#6 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#7 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#8 /app/public/index.php(17): require('/app/public/wp-...')
+#9 {main}
+  thrown in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php on line 171
+[15-Mar-2019 09:24:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function acf_is_field_key() in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php:171
+Stack trace:
+#0 /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php(27): acf_maybe_get_field('event_date', 89)
+#1 /app/public/wp-content/themes/tory-theme/template-parts/content-event.php(4): get_field('event_date')
+#2 /app/public/wp-includes/template.php(690): require('/app/public/wp-...')
+#3 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', false)
+#4 /app/public/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#5 /app/public/wp-content/themes/tory-theme/front-page.php(39): get_template_part('template-parts/...', 'event')
+#6 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#7 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#8 /app/public/index.php(17): require('/app/public/wp-...')
+#9 {main}
+  thrown in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php on line 171
+[15-Mar-2019 09:24:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function acf_is_field_key() in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php:171
+Stack trace:
+#0 /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php(27): acf_maybe_get_field('event_date', 89)
+#1 /app/public/wp-content/themes/tory-theme/template-parts/content-event.php(4): get_field('event_date')
+#2 /app/public/wp-includes/template.php(690): require('/app/public/wp-...')
+#3 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', false)
+#4 /app/public/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#5 /app/public/wp-content/themes/tory-theme/front-page.php(39): get_template_part('template-parts/...', 'event')
+#6 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#7 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#8 /app/public/index.php(17): require('/app/public/wp-...')
+#9 {main}
+  thrown in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php on line 171
+[15-Mar-2019 09:24:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function acf_is_field_key() in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php:171
+Stack trace:
+#0 /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php(27): acf_maybe_get_field('event_date', 89)
+#1 /app/public/wp-content/themes/tory-theme/template-parts/content-event.php(4): get_field('event_date')
+#2 /app/public/wp-includes/template.php(690): require('/app/public/wp-...')
+#3 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', false)
+#4 /app/public/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#5 /app/public/wp-content/themes/tory-theme/front-page.php(39): get_template_part('template-parts/...', 'event')
+#6 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#7 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#8 /app/public/index.php(17): require('/app/public/wp-...')
+#9 {main}
+  thrown in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php on line 171
+[15-Mar-2019 09:24:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function acf_is_field_key() in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php:171
+Stack trace:
+#0 /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php(27): acf_maybe_get_field('event_date', 89)
+#1 /app/public/wp-content/themes/tory-theme/template-parts/content-event.php(4): get_field('event_date')
+#2 /app/public/wp-includes/template.php(690): require('/app/public/wp-...')
+#3 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', false)
+#4 /app/public/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#5 /app/public/wp-content/themes/tory-theme/front-page.php(39): get_template_part('template-parts/...', 'event')
+#6 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#7 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#8 /app/public/index.php(17): require('/app/public/wp-...')
+#9 {main}
+  thrown in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php on line 171
+[15-Mar-2019 09:26:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function acf_is_field_key() in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php:171
+Stack trace:
+#0 /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php(27): acf_maybe_get_field('event_date', 89)
+#1 /app/public/wp-content/themes/tory-theme/template-parts/content-event.php(4): get_field('event_date')
+#2 /app/public/wp-includes/template.php(690): require('/app/public/wp-...')
+#3 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', false)
+#4 /app/public/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#5 /app/public/wp-content/themes/tory-theme/front-page.php(39): get_template_part('template-parts/...', 'event')
+#6 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#7 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#8 /app/public/index.php(17): require('/app/public/wp-...')
+#9 {main}
+  thrown in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php on line 171
+[15-Mar-2019 09:27:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function acf_is_field_key() in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php:171
+Stack trace:
+#0 /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php(27): acf_maybe_get_field('event_date', 89)
+#1 /app/public/wp-content/themes/tory-theme/template-parts/content-event.php(4): get_field('event_date')
+#2 /app/public/wp-includes/template.php(690): require('/app/public/wp-...')
+#3 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', false)
+#4 /app/public/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#5 /app/public/wp-content/themes/tory-theme/front-page.php(39): get_template_part('template-parts/...', 'event')
+#6 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#7 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#8 /app/public/index.php(17): require('/app/public/wp-...')
+#9 {main}
+  thrown in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php on line 171
+[15-Mar-2019 09:27:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function acf_is_field_key() in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php:171
+Stack trace:
+#0 /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php(27): acf_maybe_get_field('event_date', 89)
+#1 /app/public/wp-content/themes/tory-theme/template-parts/content-event.php(4): get_field('event_date')
+#2 /app/public/wp-includes/template.php(690): require('/app/public/wp-...')
+#3 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', false)
+#4 /app/public/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#5 /app/public/wp-content/themes/tory-theme/front-page.php(39): get_template_part('template-parts/...', 'event')
+#6 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#7 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#8 /app/public/index.php(17): require('/app/public/wp-...')
+#9 {main}
+  thrown in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php on line 171
+[15-Mar-2019 09:28:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function acf_is_field_key() in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php:171
+Stack trace:
+#0 /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php(27): acf_maybe_get_field('event_date', 89)
+#1 /app/public/wp-content/themes/tory-theme/template-parts/content-event.php(4): get_field('event_date')
+#2 /app/public/wp-includes/template.php(690): require('/app/public/wp-...')
+#3 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', false)
+#4 /app/public/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#5 /app/public/wp-content/themes/tory-theme/front-page.php(39): get_template_part('template-parts/...', 'event')
+#6 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#7 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#8 /app/public/index.php(17): require('/app/public/wp-...')
+#9 {main}
+  thrown in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php on line 171
